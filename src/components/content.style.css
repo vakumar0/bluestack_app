@@ -1,0 +1,41 @@
+.content {
+    width: 100%;
+}
+
+.header__title {
+    font-size: 4.8rem;
+    font-weight: 700;
+    padding: 4rem 0;
+    color: #2B416C;
+}
+
+.header__tabs {
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 500;
+    border-bottom: 1px solid #F1F1F4;
+}
+
+.header__tab {
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.header__tab--active {
+    color: #83A515;
+    border-bottom: 4px solid #83A515;
+}
+
+@media (min-width: 320px) {
+    .content__body {    
+        width: 90%;
+        margin: auto;
+    }    
+  }
+  
+@media (min-width: 600px) {
+.content__body {    
+    width: 80%;
+    margin: auto;
+}    
+}

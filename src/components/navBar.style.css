@@ -1,0 +1,14 @@
+.navBar {
+    height: 80px;
+    width: 100%;
+    background-color: #1F2640;
+}
+
+.navBar__body {    
+    width: 80%;
+    margin: auto;
+}
+
+.navBar__icon {
+    padding: 1.7rem 0 0 0;
+}

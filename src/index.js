@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App style={{fontSize: "40%"}}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
